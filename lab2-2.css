@@ -1,0 +1,17 @@
+
+		.red {
+			color: red;
+			font-family: sans-serif;
+		}
+		.blue {
+			color: blue;
+		}		
+		#green {
+			color: green;
+		}
+		.background1 {
+			background-image: url("https://images.pexels.com/photos/1251175/pexels-photo-1251175.jpeg"); 
+		}		
+		.background2 {
+			background-image: url("https://images.unsplash.com/photo-1533776992670-a72f4c28235e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"); 
+		}
