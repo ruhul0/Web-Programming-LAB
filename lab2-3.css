@@ -1,0 +1,38 @@
+
+		.red {
+			color: red;
+			font-family: sans-serif;
+			background-color: black;
+			border: 3px solid red;
+			border-color: red;
+		}
+		.blue {
+			color: lightblue;
+			background-color: black;
+			border: 2px solid blue; 
+		}		
+		#green {
+			color: green;
+		}
+		.background1 {
+			background: url("https://images1.dallasobserver.com/imager/u/745xauto/10893224/communionneighborhoodcooperative_bethrankin_2153.jpg"); 
+		    height: 745px; 
+		    width: 559px;
+		    background-repeat: no-repeat;
+		}		
+		.background2 {
+			background-image: url("https://assets.entrepreneur.com/content/3x2/2000/20160607153126-coffee-cafe-breaks-food-eating-espresso-restaurant-relaxation.jpeg?width=700&crop=2:1"); 
+			height: 745px; 
+		    width: 559px;
+		    background-repeat: no-repeat;
+		}
+		.menu{
+			width: 500px;
+			float: right;
+			height: 100%;
+			margin-bottom: 100px;
+		}
+		.content{
+			width: 500px;
+			border: 3px solid red;
+		}
