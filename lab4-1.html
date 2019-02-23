@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+		Name:		
+		<input type="text" name="Name" id="1" onkeyup="hello()">
+		<p> <span id="doc"></span></p>
+	<script type="text/javascript">
+	
+		function hello() {
+			var x = document.getElementById('1').value;
+			document.getElementById('doc').innerHTML= x;
+
+			}
+	</script>
+</body>
+</html>

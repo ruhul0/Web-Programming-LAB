@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="test" style="color: blue">Hello</p>
+	<button onclick="func()">Change content</button>
+	<script type="text/javascript">
+		function func() {
+			document.getElementById("test").style.color = "red";
+			document.getElementById('test').innerHTML= "world";
+		}
+	</script>
+</body>
+</html>

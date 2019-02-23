@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<button id="home" onclick="home()" style="background-color: blue ">Home</button>
+	<button id="about" onclick="about()">About</button>
+	<div id="home1">
+			<p>Lorem Ipsum</p>		
+	</div>
+	<div id="about1" style="display: none">
+		<p>Hello World</p>
+	</div>
+	<script type="text/javascript">
+		function home() {
+			document.getElementById("home").style.backgroundColor = "blue";
+			document.getElementById("about").style.backgroundColor = "white";
+			var x = document.getElementById("about1");
+			x.style.display = "none";
+			var y = document.getElementById("home1")
+			y.style.display = "block";
+		}
+		function about() {
+			document.getElementById("home").style.backgroundColor = "white";
+			document.getElementById("about").style.backgroundColor = "blue";
+			var a = document.getElementById("about1");
+			a.style.display = "block";
+			var b = document.getElementById("home1")
+			b.style.display = "none";
+
+		}
+	</script>
+</body>
+</html>
